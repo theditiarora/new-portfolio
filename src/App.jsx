@@ -85,7 +85,7 @@ function App() {
 
 
       </div>
-          <p className='text-center mt-10 opacity-60'>Feel free to mail me at diti.aromatic@gmail.com</p>
+          <p className='text-center mt-10 opacity-60'>Feel free to mail me at <a href="mailto: diti.aromatic@gmail.com">diti.aromatic@gmail.com</a></p>
     </div>
   );
 }
