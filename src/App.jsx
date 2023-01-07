@@ -29,7 +29,7 @@ function App() {
         <h1 className="text-4xl font-dm mt-20 ">WORK</h1>
 
         <div className="border-black border p-5 mt-5">
-          <a target='_blank' href='now-and-me-task.netlify.app/' className="text-purple-c font-semibold">Now and me</a>
+          <a target='_blank' href='https://now-and-me-task.netlify.app/' className="text-purple-c font-semibold">Now and me</a>
           <p className='mt-2'>This was an internship task where I had to make a demo app where people can vent and share their feelings.</p>
         </div>
 
