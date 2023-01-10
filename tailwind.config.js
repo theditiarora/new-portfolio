@@ -5,6 +5,14 @@ module.exports = {
   ],
   theme: {
     extend: {
+      height: {
+        'custom': '500px'
+      },
+
+      width: {
+        'customm': '500px'
+      },
+
       colors : {
         'purple-c': '#8A2DFF',
       },
