@@ -1,4 +1,4 @@
-import Pfp from './imgs/pfp.png'
+import Pfp from './imgs/pfp2.jpg'
 function App() {
   return (
     <div className="min-h-screen min-w-screen pb-5 bg-[url(./imgs/purple-circles.png)] bg-cover font-rob">
@@ -15,7 +15,7 @@ function App() {
 
       {/* IMAGE SECTION */}
       <div className="px-20 my-16 flex gap-16">
-        <img className='object-cover border-2 border-black P-0' src={Pfp} alt="" />
+        <img className='object-cover border-2 border-black P-0 w-customm h-custom flex-shrink-0' src={Pfp} alt="" />
         <div className="">
           <h1 className="text-4xl font-dm">DITI <br/> ARORA</h1>
 
@@ -29,32 +29,61 @@ function App() {
         <h1 className="text-4xl font-dm mt-20 ">WORK</h1>
 
         <div className="border-black border p-5 mt-5">
-          <a target='_blank' href='https://now-and-me-task.netlify.app/' className="text-purple-c font-semibold">Now and me</a>
+          <div className="flex justify-between items-center">
+            <a target='_blank' href='now-and-me-task.netlify.app/' className="text-purple-c font-semibold">Now and me</a>
+
+            <a target='_blank' href='https://github.com/theditiarora/Now-and-me-Task' className="text-sm underline">Github</a>
+            
+          </div>
           <p className='mt-2'>This was an internship task where I had to make a demo app where people can vent and share their feelings.</p>
         </div>
 
         <div className="border-black border p-5 mt-5">
-          <a target='_blank' href='https://coder-space.vercel.app/' className="text-purple-c font-semibold">Coder Space</a>
+          <div className="flex justify-between">
+            <a target='_blank' href='https://coder-space.vercel.app/' className="text-purple-c font-semibold">Coder Space</a>
+            <a target='_blank' href='https://github.com/theditiarora/Coder-space' className="text-sm underline">Github</a>
+          </div>
+
           <p className='mt-2'>Social networking platform for programmers where they can come hang out, nerd out on their favourite topics/interests together. Share anything, connect with others.</p>
         </div>
 
         <div className="border-black border p-5 mt-5">
-          <a target='_blank' href='https://theditiarora.github.io/Alpaca-Generator/' className="text-purple-c font-semibold">Alpaca Generator</a>
+
+          <div className="flex justify-between">
+            <a target='_blank' href='https://theditiarora.github.io/Alpaca-Generator/' className="text-purple-c font-semibold">Alpaca Generator</a>
+            <a target='_blank' href='https://github.com/theditiarora/Alpaca-Generator' className="text-sm underline">Github</a>
+          </div>
+
           <p className='mt-2'>Alpaca is a cartoon character. This app lets you customize one of your own, play with the styles, change the accessories and more.</p>
         </div>
 
         <div className="border-black border p-5 mt-5">
-          <a target='_blank' href='https://theditiarora.github.io/JS-Calculator/' className="text-purple-c font-semibold">JS Calculator</a>
+
+          <div className="flex justify-between">
+            <a target='_blank' href='https://theditiarora.github.io/JS-Calculator/' className="text-purple-c font-semibold">JS Calculator</a>
+            <a target='_blank' href='https://github.com/theditiarora/JS-Calculator' className="text-sm underline">Github</a>
+          </div>
+
           <p className='mt-2'>A calculator app written in JavaScript.</p>
         </div>
 
         <div className="border-black border p-5 mt-5">
-          <a target='_blank' href='https://theditiarora.github.io/Gradient-Generator/' className="text-purple-c font-semibold">Gradient Generator</a>
+
+          <div className="flex justify-between">
+            <a target='_blank' href='https://theditiarora.github.io/Gradient-Generator/' className="text-purple-c font-semibold">Gradient Generator</a>
+            <a target='_blank' href='https://github.com/theditiarora/Gradient-Generator' className="text-sm underline">Github</a>
+          </div>
+
           <p className='mt-2'>A tool that lets you generate CSS code of all sorts of linear gradients.</p>
         </div>
 
         <div className="border-black border p-5 mt-5">
+
+          <div className="flex justify-between">
           <a target='_blank' href='https://theditiarora.github.io/Twitter-login-page-clone/' className="text-purple-c font-semibold">Twitter Clone</a>
+            <a target='_blank' href='https://github.com/theditiarora/Twitter-login-page-clone' className="text-sm underline">Github</a>
+          </div>
+
           <p className='mt-2'>Twitter sign-up page clone.</p>
         </div>
 
