@@ -15,9 +15,9 @@ function App() {
 
         <div className="flex gap-10">
           {/* texts */}
-          <a className='outline-none hidden sm:visible' href='https://www.linkedin.com/in/diti-arora' target='_blank'>LinkedIn.</a>
-          <a className='outline-none hidden sm:visible' href='https://twitter.com/theditiarora' target='_blank'>Twitter.</a>
-          <a className='outline-none hidden sm:visible' href='https://github.com/theditiarora' target='_blank'>Github.</a>
+          <a className='outline-none hidden sm:inline' href='https://www.linkedin.com/in/diti-arora' target='_blank'>LinkedIn.</a>
+          <a className='outline-none hidden sm:inline' href='https://twitter.com/theditiarora' target='_blank'>Twitter.</a>
+          <a className='outline-none hidden sm:inline' href='https://github.com/theditiarora' target='_blank'>Github.</a>
 
           {/* icons */}
           <div className="flex gap-10">
