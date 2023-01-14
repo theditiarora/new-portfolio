@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="min-h-screen min-w-screen pb-5 bg-[url(./imgs/purple-circles.png)] bg-cover font-rob">
       {/* NAV */}
-      <div className='border-b flex px-10 md:px-20 py-6 text-purple-c font-semibold text-xs sm:text-sm font-rob items-center justify-between border-black'>
+      <div className='border-b flex px-5 xs:px-10 md:px-20 py-6 text-purple-c font-semibold text-xs sm:text-sm font-rob items-center justify-between border-black'>
         <p>PORTFOLIO.</p>
 
         <div className="flex gap-10">
@@ -32,9 +32,9 @@ function App() {
       </div>
 
       {/* IMAGE SECTION */}
-      <div className="px-10 md:px-20 my-16 flex gap-10 md:gap-16">
+      <div className="px-5 xs:px-10 md:px-20 my-16 xs:flex gap-10 md:gap-16">
         <img className='object-cover rounded-full sm:rounded-none border sm:border-2 border-black P-0 w-32 h-32 sm:w-52 sm:h-60 md:w-2/4 lg:w-customm md:h-custom flex-shrink-0' src={Pfp} alt="" />
-        <div className="">
+        <div className="mt-7 xs:mt-1">
           <h1 className={`text-lg sm:text-mid md:text-3xl lg:text-4xl font-dm md:mt-7` }>DITI ARORA</h1>
 
           <p className='font-rob font-medium lg:1/4 md:w-3/4 xl:w-2/4 mt-1 sm:mt-3 md:mt-5 lg:mt-10 text-xs sm:text-sm md:text-md-lg lg:text-lg'>I'm a 13 y/o ReactJs Developer and UI designer. I've been working with HTML, CSS, JavaScript, React and Tailwind from the past 2 years. I love to explore web dev and get better at it. Currently I'm learning and trying to break into the web3 space.</p>
@@ -43,7 +43,7 @@ function App() {
       </div>
 
       {/* WORK */}
-      <div className='px-10 md:px-20 md:w-3/4'>
+      <div className='px-5 xs:px-10 md:px-20 md:w-3/4'>
         <h1 className="text-3xl md:text-4xl font-dm mt-20 ">WORK</h1>
         
         <div className="border-black border p-4 md:p-5 mt-5">
@@ -108,7 +108,7 @@ function App() {
       </div>
 
       {/* experience */}
-      <div className='px-10 md:px-20 md:w-3/4'>
+      <div className='px-5 xs:px-10 md:px-20 md:w-3/4'>
         <h1 className="text-3xl md:text-4xl font-dm mt-20 ">EXPERIENCE</h1>
 
         <div className="border-black border p-5 mt-5">
@@ -132,7 +132,7 @@ function App() {
 
 
       </div>
-          <p className='text-center mt-10 opacity-60'>Feel free to mail me at <a href="mailto: diti.aromatic@gmail.com">diti.aromatic@gmail.com</a></p>
+          <p className='text-xs sm:text-base text-center mt-10 opacity-60 '>Feel free to mail me at <a href="mailto: diti.aromatic@gmail.com">diti.aromatic@gmail.com</a></p>
     </div>
   );
 }
@@ -140,4 +140,3 @@ function App() {
 export default App;
 
 
-// <AiOutlineTwitter  className='w-8 h-8 text-purple-c' />
