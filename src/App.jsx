@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { AiOutlineTwitter } from 'react-icons/ai';
 import { AiOutlineGithub } from 'react-icons/ai';
 import { AiOutlineLinkedin } from 'react-icons/ai';
+import { GithubLogo, TwitterLogo, LinkedinLogo } from "phosphor-react";
 
 function App() {
   const [vis, setVis] = useState(true);
@@ -21,11 +22,11 @@ function App() {
 
           {/* icons */}
           <div className="flex gap-10">
-            <a className='sm:hidden' href='https://www.linkedin.com/in/diti-arora' target='_blank'><AiOutlineTwitter className='w-6 h-6 text-purple-c text-purple-c ' /></a>
+            <a className='sm:hidden' href='https://www.linkedin.com/in/diti-arora' target='_blank'><LinkedinLogo size={22} weight="fill" /></a>
 
-            <a className='sm:hidden' href='https://twitter.com/theditiarora' target='_blank'><AiOutlineLinkedin className='w-6 h-6 text-purple-c text-purple-c ' /></a>
+            <a className='sm:hidden' href='https://twitter.com/theditiarora' target='_blank'><TwitterLogo size={22} weight="fill" /></a>
 
-            <a className='sm:hidden' href='https://github.com/theditiarora' target='_blank'><AiOutlineGithub className='w-6 h-6 text-purple-c text-purple-c ' /></a>
+            <a className='sm:hidden' href='https://github.com/theditiarora' target='_blank'><GithubLogo size={22} weight="fill" /></a>
           </div>
           
         </div>
