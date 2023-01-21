@@ -49,7 +49,7 @@ function App() {
         
         <div className="border-black border p-4 md:p-5 mt-5">
           <div className="flex justify-between items-center">
-            <a target='_blank' href='now-and-me-task.netlify.app/' className="text-purple-c font-semibold font-sm md:font-md">Now and me</a>
+            <a target='_blank' href='https://now-and-me-task.netlify.app/' className="text-purple-c font-semibold font-sm md:font-md">Now and me</a>
 
             <a target='_blank' href='https://github.com/theditiarora/Now-and-me-Task' className="text-sm underline">Github</a>
             
