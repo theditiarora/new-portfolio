@@ -1,4 +1,4 @@
-import Pfp from './imgs/pfp2.jpg'
+import Pfp from './imgs/pfp.jpg'
 import { useState } from 'react';
 import { AiOutlineTwitter } from 'react-icons/ai';
 import { AiOutlineGithub } from 'react-icons/ai';
