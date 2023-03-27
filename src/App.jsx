@@ -38,7 +38,9 @@ function App() {
         <div className="mt-7 xs:mt-1">
           <h1 className={`text-lg sm:text-mid md:text-3xl lg:text-4xl font-dm md:mt-7` }>DITI ARORA</h1>
 
-          <p className='font-rob font-medium lg:1/4 md:w-3/4 xl:w-2/4 mt-1 sm:mt-3 md:mt-5 lg:mt-10 text-xs sm:text-sm md:text-md-lg lg:text-lg'>I'm a 13 y/o ReactJs Developer, with design skills. I've been working with React and Tailwind for the past 2 years now. I love to explore webdev and deep dive about the concepts that falls under the same. Currently, I'm trying to break into web3 space and also aiming to explore backend this year! in my free time, you'll find me either painting, or flipping books.</p>
+          <p className='font-rob font-medium lg:1/4 md:w-3/4 xl:w-2/4 mt-1 sm:mt-3 md:mt-5 lg:mt-10 text-xs sm:text-sm md:text-md-lg lg:text-lg'>Hey, I'm a 13-year-old ReactJs dev with some sweet design skills. I've been building with React and Tailwind for 2 years now. I'm always down to explore the ins and outs of web dev. Right now, I'm focusing on learning Firebase and plan to tackle NextJS + TypeScript next. I also wanna check out web3 this year! When I'm not coding, you can catch me painting or flipping through some books.
+
+</p>
 
         </div>
       </div>
